@@ -1,0 +1,23 @@
+:root {
+  font-family:  Arial, sans-serif;
+  color-scheme: dark;
+  background-color: #00008d;
+  background-image: url("./assets/bg1.png");
+  background-size:     cover; 
+  
+}
+
+
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+
+
+
+

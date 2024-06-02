@@ -1,0 +1,19 @@
+.note {
+    display: inline-block;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 5px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 1);
+    background-color: rgba(0,0,0,0.7);
+    color: #e1e1e1;
+    font-size: 16px;
+    max-width: 300px;
+    text-align: center;
+    cursor: grab;
+    user-select: none; /* Prevents text selection while dragging */
+  }
+  
+  .note:active {
+    cursor: grabbing;
+  }
+  
